@@ -446,7 +446,7 @@ properties:
                               When the cache mode is set to "USE_ORIGIN_HEADERS" or "BYPASS_CACHE", you must omit this field.
                               A duration in seconds terminated by 's'. Example: "3s".
                           - !ruby/object:Api::Type::String
-                            name: 'defaultTtl'  # defalt from api
+                            name: 'defaultTtl'  # default from api
                             description: |
                               Specifies the default TTL for cached content served by this origin for responses that do not have an existing valid TTL (max-age or s-max-age).
 
@@ -465,7 +465,7 @@ properties:
                               A duration in seconds terminated by 's'. Example: "3s".
                             default_from_api: true
                           - !ruby/object:Api::Type::String
-                            name: 'maxTtl'  # defalt from api
+                            name: 'maxTtl'  # default from api
                             description: |
                               Specifies the maximum allowed TTL for cached content served by this origin.
 

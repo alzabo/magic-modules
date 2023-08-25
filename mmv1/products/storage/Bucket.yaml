@@ -265,7 +265,7 @@ properties:
   - !ruby/object:Api::Type::String
     name: 'id'
     description: |
-      The ID of the bucket. For buckets, the id and name properities are the
+      The ID of the bucket. For buckets, the id and name properties are the
       same.
     output: true
   - !ruby/object:Api::Type::NestedObject

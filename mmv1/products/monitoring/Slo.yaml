@@ -225,7 +225,7 @@ properties:
           - !ruby/object:Api::Type::NestedObject
             name: availability
             description: |
-              Availability based SLI, dervied from count of requests made to this service that return successfully.
+              Availability based SLI, derived from count of requests made to this service that return successfully.
             exactly_one_of:
               - service_level_indicator.0.basic_sli.0.latency
               - service_level_indicator.0.basic_sli.0.availability
@@ -613,7 +613,7 @@ properties:
                   - !ruby/object:Api::Type::NestedObject
                     name: availability
                     description: |
-                      Availability based SLI, dervied from count of requests made to this service that return successfully.
+                      Availability based SLI, derived from count of requests made to this service that return successfully.
                     exactly_one_of:
                       - service_level_indicator.0.windows_based_sli.0.good_total_ratio_threshold.0.basic_sli_performance.0.latency
                       - service_level_indicator.0.windows_based_sli.0.good_total_ratio_threshold.0.basic_sli_performance.0.availability

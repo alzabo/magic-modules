@@ -91,7 +91,7 @@ virtual_fields:
     name: 'deletion_policy'
     description: |
       Set to `ABANDON` to allow the WebApp to be untracked from terraform state
-      rather than deleted upon `terraform destroy`. This is useful becaue the WebApp may be
+      rather than deleted upon `terraform destroy`. This is useful because the WebApp may be
       serving traffic. Set to `DELETE` to delete the WebApp. Default to `ABANDON`
     default_value: ABANDON
 custom_code: !ruby/object:Provider::Terraform::CustomCode

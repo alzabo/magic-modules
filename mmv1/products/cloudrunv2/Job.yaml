@@ -165,7 +165,7 @@ properties:
     name: 'expireTime'
     output: true
     description: |-
-      For a deleted resource, the time after which it will be permamently deleted.
+      For a deleted resource, the time after which it will be permanently deleted.
   - !ruby/object:Api::Type::String
     name: 'creator'
     output: true
@@ -289,7 +289,7 @@ properties:
                         name: 'name'
                         required: true
                         description: |-
-                          Name of the environment variable. Must be a C_IDENTIFIER, and mnay not exceed 32768 characters.
+                          Name of the environment variable. Must be a C_IDENTIFIER, and may not exceed 32768 characters.
                       - !ruby/object:Api::Type::String
                         name: 'value'
                         description: |-
