@@ -228,7 +228,7 @@ This unsupported field was introduced incorrectly. It is now removed.
 
 Previously, the default value of `enable_endpoint_independent_mapping` was `TRUE`. Now,
 it will use the default value from the API which is `FALSE`. If you want to
-enable endpoint independent mapping, then explicity set the value of
+enable endpoint independent mapping, then explicitly set the value of
 `enable_endpoint_independent_mapping` field to `TRUE`.
 
 
