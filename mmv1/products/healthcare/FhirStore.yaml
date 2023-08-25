@@ -292,7 +292,7 @@ properties:
   - !ruby/object:Api::Type::Array
     name: notificationConfigs
     description: |-
-      A list of notifcation configs that configure the notification for every resource mutation in this FHIR store.
+      A list of notification configs that configure the notification for every resource mutation in this FHIR store.
     min_version: beta
     item_type: !ruby/object:Api::Type::NestedObject
       properties:

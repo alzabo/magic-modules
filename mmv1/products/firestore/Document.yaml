@@ -90,7 +90,7 @@ properties:
     name: fields
     required: true
     description: |
-      The document's [fields](https://cloud.google.com/firestore/docs/reference/rest/v1/projects.databases.documents) formated as a json string.
+      The document's [fields](https://cloud.google.com/firestore/docs/reference/rest/v1/projects.databases.documents) formatted as a json string.
     custom_expand: 'templates/terraform/custom_expand/json_schema.erb'
     custom_flatten: 'templates/terraform/custom_flatten/json_schema.erb'
     state_func:

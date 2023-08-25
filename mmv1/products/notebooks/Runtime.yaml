@@ -510,7 +510,7 @@ properties:
       - !ruby/object:Api::Type::Integer
         name: 'idleShutdownTimeout'
         description: |
-          Time in minutes to wait before shuting down runtime.
+          Time in minutes to wait before shutting down runtime.
           Default: 180 minutes
       - !ruby/object:Api::Type::Boolean
         name: 'installGpuDriver'
