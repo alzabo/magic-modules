@@ -51,7 +51,7 @@ update_verb: :PATCH
 update_mask: true
 examples:
   - !ruby/object:Provider::Terraform::Examples
-    name: 'firebase_extentions_instance_resize_image'
+    name: 'firebase_extensions_instance_resize_image'
     min_version: 'beta'
     primary_resource_id: 'resize_image'
     vars:
