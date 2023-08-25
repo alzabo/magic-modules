@@ -241,7 +241,7 @@ properties:
                 item_type: !ruby/object:Api::Type::NestedObject
                   properties:
                     - !ruby/object:Api::Type::NestedObject
-                      name: 'obectId'
+                      name: 'objectId'
                       output: true
                       description: |
                         Describes how some of the technical fields in a certificate should be populated.
@@ -659,7 +659,7 @@ properties:
                 item_type: !ruby/object:Api::Type::NestedObject
                   properties:
                     - !ruby/object:Api::Type::NestedObject
-                      name: 'obectId'
+                      name: 'objectId'
                       output: true
                       description: |
                         Required. Describes how some of the technical fields in a certificate should be populated.
